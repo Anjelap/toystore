@@ -1,0 +1,9 @@
+mat-card{
+    background-color: orange;
+    animation: mymove 1s infinite;
+    overflow:hidden;
+}
+@keyframes mymove {
+    from {background-color: orange;}
+    to {background-color:yellow;}
+  }
